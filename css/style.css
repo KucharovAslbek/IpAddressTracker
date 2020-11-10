@@ -85,6 +85,9 @@ img {
             align-items: center;
     margin: 0px 20px;
   }
+  .content-middle{
+    padding-right: 30px;
+  }
   .ip-address {
     margin: 0;
     margin-bottom: 20px;
