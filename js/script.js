@@ -1,4 +1,3 @@
-// at_BMqgGaW3DPLGCX7tqEHLRRskiiYR7
 let input = document.querySelector('.search-input');
 let searchBtn = document.querySelector('.search');
 let middleContent = document.querySelector('.content-middle');
@@ -23,7 +22,7 @@ searchBtn.addEventListener('click', () => {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             }).addTo(map);
             let marker = L.icon({
-                iconUrl: '../img/icon-location.svg',
+                iconUrl: 'img/icon-location.svg',
                 iconSize: [36, 46],
             });
             let markerOptions = {
