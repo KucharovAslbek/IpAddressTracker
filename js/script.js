@@ -8,9 +8,9 @@ searchBtn.addEventListener('click', () => {
         .then((response) => response.json())
         .then((data) => {
             let IpAdressBlock = document.querySelector('.ip-address');
-            LocationBlock = document.querySelector('.location');
-            TimezoneBlock = document.querySelector('.timezone');
-            IspBlock = document.querySelector('.isp');
+                LocationBlock = document.querySelector('.location');
+                TimezoneBlock = document.querySelector('.timezone');
+                IspBlock = document.querySelector('.isp');
 
             IpAdressBlock.textContent = data.ip;
             LocationBlock.textContent = `${data.location.region}, ${data.location.city}`;
@@ -22,7 +22,7 @@ searchBtn.addEventListener('click', () => {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             }).addTo(map);
             let marker = L.icon({
-                iconUrl: 'img/icon-location.svg',
+                iconUrl: '../img/icon-location.svg',
                 iconSize: [36, 46],
             });
             let markerOptions = {
